@@ -210,6 +210,7 @@ class UpgradeAlertNativeState extends State<UpgradeAlertNative> {
           NativeDialogPlusAction(
             text: messages.message(UpgraderMessage.buttonTitleLater) ?? '',
             onPressed: () => onUserLater(context, true),
+            style: NativeDialogPlusActionStyle.destructive
           ),
         NativeDialogPlusAction(
           text: messages.message(UpgraderMessage.buttonTitleUpdate) ?? '',
