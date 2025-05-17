@@ -1,0 +1,2 @@
+/Users/negm/Projects/upgrader/example/android/app/.cxx/Debug/5e5a5824/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/negm/Projects/upgrader/example/android/app/.cxx/Debug/5e5a5824/armeabi-v7a/CMakeFiles/rebuild_cache.dir

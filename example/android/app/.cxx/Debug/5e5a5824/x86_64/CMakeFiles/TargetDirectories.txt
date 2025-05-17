@@ -1,0 +1,2 @@
+/Users/negm/Projects/upgrader/example/android/app/.cxx/Debug/5e5a5824/x86_64/CMakeFiles/edit_cache.dir
+/Users/negm/Projects/upgrader/example/android/app/.cxx/Debug/5e5a5824/x86_64/CMakeFiles/rebuild_cache.dir

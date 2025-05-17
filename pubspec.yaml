@@ -37,6 +37,7 @@ dependencies:
 
   # A dart library for parsing, traversing, querying, transforming and building XML documents.
   xml: ^6.3.0
+  native_dialog_plus: ^1.1.0
 
 dev_dependencies:
   flutter_test:
