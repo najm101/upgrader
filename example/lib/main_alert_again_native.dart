@@ -23,11 +23,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Upgrader Example - Alert Again',
+      title: 'Upgrader Example - Native Alert Again',
       home: UpgradeAlertNative(
         upgrader: _upgrader,
         child: Scaffold(
-          appBar: AppBar(title: const Text('Upgrader Example - Alert Again')),
+          appBar: AppBar(title: const Text('Upgrader Example - Native Alert Again')),
           body: const Center(child: Text('Checking...')),
         ),
       ),

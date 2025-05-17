@@ -200,22 +200,21 @@ class UpgradeAlertNativeState extends State<UpgradeAlertNative> {
 
     NativeDialogPlus(
       actions: [
-        NativeDialogPlusAction(
-          text: messages.message(UpgraderMessage.buttonTitleUpdate) ?? '',
-          onPressed: () => onUserUpdated(context, !widget.upgrader.blocked()),
-        ),
-        if (showLater)
-          NativeDialogPlusAction(
-            text: messages.message(UpgraderMessage.buttonTitleLater) ?? '',
-            onPressed: () => onUserLater(context, true),
-            style: NativeDialogPlusActionStyle.cancel,
-          ),
         if (showIgnore)
           NativeDialogPlusAction(
             text: messages.message(UpgraderMessage.buttonTitleIgnore) ?? '',
             onPressed: () => onUserIgnored(context, true),
             style: NativeDialogPlusActionStyle.destructive,
           ),
+        if (showLater)
+          NativeDialogPlusAction(
+            text: messages.message(UpgraderMessage.buttonTitleLater) ?? '',
+            onPressed: () => onUserLater(context, true),
+          ),
+        NativeDialogPlusAction(
+          text: messages.message(UpgraderMessage.buttonTitleUpdate) ?? '',
+          onPressed: () => onUserUpdated(context, !widget.upgrader.blocked()),
+        ),
       ],
       title: title ?? '',
       message:
